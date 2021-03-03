@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+<link rel="icon" type="image/x-icon" href="index.jpg"/>
+<title>Bookshop index</title>
+</head>
+<body>
+<div class="header">
+<h2 class="div_head" id="first">Bookshop.com</h2>
+</div>
+<div id="mySidenav" class="sidenav">
+<a href="#" id="about">About</a>
+<a href="#" id="blog">Blog</a>
+<a href="#" id="books">Books</a>
+<a href="#" id="contact">Contact</a>
+</div>
+<script>
+function input_order(){
+var date=prompt("Enter the date when the book to be arrived:")
+var purchase_Id=prompt("Enter your purchase id:")
+var type_confirm=prompt("Type confirm in the following box")
+var j=0;
+
+if (type_confirm=="confirm"){
+document.getElementById('first').innerHTML="You have been successfully ordered this book!...";
+
+}
+else{
+document.getElementById('first').innerHTML="Your ordered has been cancelled!..."; 
+}
+}
+</script>
+<div class="first_img">
+
+<button onclick="input_order()" class="res" ><img src="/home/suganth/skcet/LAB/ADP Lab/Exp 9/harry.jpg" alt="harry"></button>
+</div>
+<div class="first_img">
+
+<button onclick="input_order()" class="res" id="res2"><img src="/home/suganth/skcet/LAB/ADP Lab/Exp 9/pi.jpeg" alt="pi"></button>
+</div>
+<div class="first_img">
+
+<button onclick="input_order()" class="res" id="res2" ><img src="/home/suganth/skcet/LAB/ADP Lab/Exp 9/stev.webp" alt="oth"></button>
+</div>
+<div class="first_img">
+
+<button onclick="input_order()" class="res" id="res2" ><img src="/home/suganth/skcet/LAB/ADP Lab/Exp 9/ai.jpeg" alt="oth"></button>
+</div>
+</body>
+</html>
