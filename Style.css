@@ -1,0 +1,70 @@
+html,body{
+height: 100%;
+margin: 0;
+background:url("/home/suganth/skcet/LAB/ADP Lab/Exp 9/index.jpg") center no-repeat;
+background-size: cover;
+}
+#mySidenav a {
+position: absolute;
+left: -80px;
+transition: 0.3s;
+padding: 15px;
+width: 100px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+border-radius: 0 5px 5px 0;
+margin-top: 250px;
+}
+#mySidenav a:hover {
+left: 0;
+}
+#about {
+top: 20px;
+background-color: #4CAF50;
+}
+#blog {
+top: 80px;
+background-color: #2196F3;
+}
+#books {
+top: 140px;
+background-color: #f44336;
+}
+#contact {
+top: 200px;
+background-color: #555
+}
+
+.header{
+
+background-image: linear-gradient(to right,rgb(194, 78, 11),rgba(218, 44, 13, 0.705),rgb(187, 40, 64),rgb(17, 133, 153));
+padding: 20px;
+text-align: center;
+
+}
+h2.div_head{
+text-shadow:;
+}
+
+.res{
+cursor: pointer;
+padding: 5px;
+display:inline-block;
+width: 250px;
+height:300px;
+overflow:hidden;
+}
+#res2{
+
+width: 200px;
+height:300px;
+
+}
+
+.first_img{
+margin-left: 150px;
+margin-top:40px;
+float:left;
+
+}
